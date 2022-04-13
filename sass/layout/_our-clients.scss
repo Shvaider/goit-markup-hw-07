@@ -1,0 +1,53 @@
+.our-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.description {
+    font-family: var(--accent-text);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: var(--accent-text-color);
+}
+.svg-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.svg-item {
+    display: flex;
+    flex-basis: calc((100% - 180px) /6);
+}
+.box-svg-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid var(--color-pic-containers);
+    color: var(--color-pic-containers);
+    transition-property: border, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.box-svg-item:hover,
+.box-svg-item:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.svg-icon-item {
+    width: 106px;
+    height: 60px;
+    border-radius: 4px;
+    background-position: center;
+    fill: currentColor;
+}
+.svg-icon-item:hover,
+.svg-icon-item:focus {
+    fill: var(--accent-color);
+}
