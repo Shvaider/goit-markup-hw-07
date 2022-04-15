@@ -34,11 +34,12 @@
     transition-property: border, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.box-svg-item:hover,
-.box-svg-item:focus {
-    color: var(--accent-color);
-    border: 1px solid var(--accent-color);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        border: 1px solid var(--accent-color);
+    }
 }
 .svg-icon-item {
     width: 106px;
@@ -46,8 +47,9 @@
     border-radius: 4px;
     background-position: center;
     fill: currentColor;
-}
-.svg-icon-item:hover,
-.svg-icon-item:focus {
-    fill: var(--accent-color);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
 }

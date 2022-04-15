@@ -16,12 +16,13 @@
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    fill: var(--accent-background-color);
+    background-color: var(--accent-color);
+    }
 }
 .social-list-icon {
     height: 20px;
-}
-.social-list-link:hover,
-.social-list-link:focus {
-    fill: var(--accent-background-color);
-    background-color: var(--accent-color);
 }

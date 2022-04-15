@@ -21,10 +21,11 @@
     transition-property: currentColor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-close:hover .close-pic,
-.btn-close:focus .close-pic {
-    fill: var(--accent-color);
+
+    .btn-close:hover &,
+    .btn-close:focus & {
+        fill: var(--accent-color);
+    }
 }
 /*--end крестик закрытия--*/
 .modal-list {
@@ -93,10 +94,11 @@
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-button:hover,
-.modal-button:focus {
-    background-color: #188CE8;
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+    }
 }
 .aside-desc {
     width: 448px;
@@ -113,10 +115,11 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.aside-desc:hover,
-.aside-desc:focus {
-    border: 1px solid #2196F3;
+
+    &:hover,
+    &:focus {
+        border: 1px solid #2196F3;
+    }
 }
 .modal-text-excerpt {
     font-family: var(--accent-text);
@@ -175,6 +178,11 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+    border: 1px solid #2196F3;
+    }
 }
 .modal-icon {
     position: absolute;
@@ -186,10 +194,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus,
-.modal-input:hover {
-    border: 1px solid #2196F3;
-}
+
 .modal-input:focus ~ .modal-icon,
 .modal-input:hover ~ .modal-icon {
     fill: var(--accent-color);

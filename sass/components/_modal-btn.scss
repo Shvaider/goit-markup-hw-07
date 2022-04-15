@@ -22,11 +22,13 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.main-button:hover,
-.main-button:focus {
+
+    &:hover,
+    &:focus {
     background: #188CE8;
+    }
 }
+
  .footer-button {
         display: flex;
         align-items: center;
@@ -50,12 +52,14 @@
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+        background: #188CE8;
+        }
     }
     .button-icon {
         margin-left: 10px;
         fill: currentColor;
     }
-    .footer-button:hover,
-    .footer-button:focus {
-        background: #188CE8;
-    }
+ 

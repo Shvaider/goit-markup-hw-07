@@ -28,10 +28,10 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-item:hover,
-.footer-item:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 .footer-item-link {
     font-family: var(--accent-text);
@@ -42,11 +42,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
 }
-.footer-item-link:hover,
-.footer-item-link:focus {
-    color: var(--accent-color);
 }
+.footer-item-link
 
 .icon {
     display: inline-block;
@@ -121,10 +122,10 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-    background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 .footer-button {
     display: flex;
@@ -149,12 +150,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background: #188CE8;
+    }
 }
 .button-icon {
     margin-left: 10px;
     fill: currentColor;
-}
-.footer-button:hover,
-.footer-button:focus {
-    background: #188CE8;
 }
