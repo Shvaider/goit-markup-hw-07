@@ -10,14 +10,14 @@
     color: var(--accent-text-color);
     margin-bottom: 50px;
 }
-.userpic {
+.userpic__list {
     display: flex;
     flex-direction: row;
     list-style: none;
     margin-left: -30px;
     margin-top: -30px;
 }
-.user-img {
+.userpic__item {
     flex-basis: calc((100% - 120px) /4);
     margin-left: 30px;
     margin-top: 30px;
@@ -26,13 +26,13 @@
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
     background: var(--accent-background-color);
 }
-.user-name {
+.userpic__profile {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: 32px;
     padding-left: 32px;
 }
-.user-desk {
+.userpic__name {
     font-family: var(--accent-text);
     margin-bottom: 10px;
     font-size: 16px;
@@ -41,7 +41,7 @@
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
 }
-.user-desk-item {
+.userpic__description {
     font-family: var(--accent-text);
     font-size: 16px;
     line-height: 1.19;

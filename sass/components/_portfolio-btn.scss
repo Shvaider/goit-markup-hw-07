@@ -3,17 +3,17 @@
     padding-bottom: 94px;
     background-color: var(--accent-background-color);
 }
-.button-list {
+.button__list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 50px;
     list-style: none;
 }
-.buttons-item:not(:last-child) {
+.button__item:not(:last-child) {
     margin-right: 8px;
 }
-.button-item {
+.btn__portfolio {
     padding-top: 6px;
     padding-right: 22px;
     padding-bottom: 6px;
@@ -40,7 +40,7 @@
     color: var(--accent-background-color);
 }
 }
-.button-color{
+.btn__portfolio--color {
     background-color: var(--accent-color);
     color: var(--accent-background-color);
 }

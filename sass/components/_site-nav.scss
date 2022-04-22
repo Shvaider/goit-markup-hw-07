@@ -1,4 +1,4 @@
-.site-nav-list {
+.site-nav__list {
     display: flex;
     text-decoration: none;
     font-family: var(--accent-text);
@@ -32,7 +32,7 @@
     transform: translateY(32px);
 }
 */
-.site-nav-list .nav-list-link {
+.site-nav__list .nav-list__link {
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -47,18 +47,18 @@
     margin-right: 50px;
 }
 
-.site-nav-list .nav-list-link:hover,
-.site-nav-list .nav-list-link:focus {
+.site-nav__list .nav-list__link:hover,
+.site-nav__list .nav-list__link:focus {
     color:  var(--accent-color);
 }
-.site-nav-list .current {
+.site-nav__list .current {
     color: var(--accent-color);
 }
-.auth-nav-list {
+.contact__list {
     display: flex;
     margin-left: auto;
 }
-.auth-nav-list {
+.contact__list {
     color: var(--aside-text);
     font-weight: 500;
     font-family: var(--accent-text);
@@ -69,7 +69,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contact-item {
+.contact__item {
     margin-right: 50px;
     transition-property: background-color;
     transition-duration: 250ms;
@@ -80,7 +80,7 @@
         fill: var(--accent-color);
 }
 }
-.nav-contact-item {
+.nav-contact__link {
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
@@ -96,12 +96,12 @@
         fill: var(--accent-color);
 }
 }
-.contact-item-icon {
+.contact-item__icon {
     height: 16px;
     fill: currentColor;
     margin-right: 10px;
 }
-.widget__link {
+.contact__item2 {
     color: var(--aside-text);
     text-decoration: none;
     font-weight: 500;

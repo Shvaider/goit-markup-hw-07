@@ -1,10 +1,10 @@
-.social-list-socials {
+.social__list {
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin-top: 16px;
 }
-.social-list-link {
+.social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,9 +13,7 @@
     border-radius: 50%;
     fill: #AFB1B8;;
     background-color: var(--accent-background-color);
-    transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
@@ -23,6 +21,9 @@
     background-color: var(--accent-color);
     }
 }
-.social-list-icon {
+.social__icon {
     height: 20px;
+}
+.social__item:not(:nth-child(4n + 1)) {
+    margin-left: 10px;
 }
